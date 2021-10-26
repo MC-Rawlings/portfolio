@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 interface Props {
-  title: string
-  className?: string
+  title: string;
+  className?: string;
 }
 
 export const Card: React.FC<Props> = ({ title, className }) => {
-
   return (
     <div className={className}>
-      {title}
+      <h1>{title}</h1>
     </div>
-  )
-}
+  );
+};

@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 import { Card } from '.';
 
-const StyledCard = styled(Card)`
+export const StyledCard = styled(Card)`
   border: 1px red solid;
+  height: 300px;
+  width: 300px;
 `;
-
-export { StyledCard };
